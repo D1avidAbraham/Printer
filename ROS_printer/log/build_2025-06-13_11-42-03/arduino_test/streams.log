@@ -1,0 +1,37 @@
+[4.626s] Invoking command in '/home/david/program/ROS_printer/src/arduino_test': PYTHONPATH=/home/david/program/ROS_printer/build/arduino_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_test build --build-base /home/david/program/ROS_printer/build/arduino_test/build install --record /home/david/program/ROS_printer/build/arduino_test/install.log --single-version-externally-managed install_data
+[6.835s] running egg_info
+[6.851s] creating ../../build/arduino_test/arduino_test.egg-info
+[6.864s] writing ../../build/arduino_test/arduino_test.egg-info/PKG-INFO
+[6.895s] writing dependency_links to ../../build/arduino_test/arduino_test.egg-info/dependency_links.txt
+[6.960s] writing entry points to ../../build/arduino_test/arduino_test.egg-info/entry_points.txt
+[6.977s] writing requirements to ../../build/arduino_test/arduino_test.egg-info/requires.txt
+[6.988s] writing top-level names to ../../build/arduino_test/arduino_test.egg-info/top_level.txt
+[7.010s] writing manifest file '../../build/arduino_test/arduino_test.egg-info/SOURCES.txt'
+[7.114s] reading manifest file '../../build/arduino_test/arduino_test.egg-info/SOURCES.txt'
+[7.305s] writing manifest file '../../build/arduino_test/arduino_test.egg-info/SOURCES.txt'
+[7.316s] running build
+[7.318s] running build_py
+[7.335s] creating /home/david/program/ROS_printer/build/arduino_test/build
+[7.342s] creating /home/david/program/ROS_printer/build/arduino_test/build/lib
+[7.351s] creating /home/david/program/ROS_printer/build/arduino_test/build/lib/arduino_test
+[7.381s] copying arduino_test/stepper.py -> /home/david/program/ROS_printer/build/arduino_test/build/lib/arduino_test
+[7.453s] copying arduino_test/__init__.py -> /home/david/program/ROS_printer/build/arduino_test/build/lib/arduino_test
+[7.501s] running install
+[7.503s] running install_lib
+[7.576s] creating /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test
+[7.631s] copying /home/david/program/ROS_printer/build/arduino_test/build/lib/arduino_test/stepper.py -> /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test
+[7.746s] copying /home/david/program/ROS_printer/build/arduino_test/build/lib/arduino_test/__init__.py -> /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test
+[7.894s] byte-compiling /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test/stepper.py to stepper.cpython-310.pyc
+[8.030s] byte-compiling /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test/__init__.py to __init__.cpython-310.pyc
+[8.145s] running install_data
+[8.170s] creating /home/david/program/ROS_printer/install/arduino_test/share/ament_index
+[8.178s] creating /home/david/program/ROS_printer/install/arduino_test/share/ament_index/resource_index
+[8.188s] creating /home/david/program/ROS_printer/install/arduino_test/share/ament_index/resource_index/packages
+[8.227s] copying resource/arduino_test -> /home/david/program/ROS_printer/install/arduino_test/share/ament_index/resource_index/packages
+[8.310s] copying package.xml -> /home/david/program/ROS_printer/install/arduino_test/share/arduino_test
+[8.355s] running install_egg_info
+[8.412s] Copying ../../build/arduino_test/arduino_test.egg-info to /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test-0.0.0-py3.10.egg-info
+[9.359s] running install_scripts
+[9.581s] Installing stepper script to /home/david/program/ROS_printer/install/arduino_test/lib/arduino_test
+[9.664s] writing list of installed files to '/home/david/program/ROS_printer/build/arduino_test/install.log'
+[9.740s] Invoked command in '/home/david/program/ROS_printer/src/arduino_test' returned '0': PYTHONPATH=/home/david/program/ROS_printer/build/arduino_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_test build --build-base /home/david/program/ROS_printer/build/arduino_test/build install --record /home/david/program/ROS_printer/build/arduino_test/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/arduino_test/arduino_test.egg-info
+writing ../../build/arduino_test/arduino_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/arduino_test/arduino_test.egg-info/dependency_links.txt
+writing entry points to ../../build/arduino_test/arduino_test.egg-info/entry_points.txt
+writing requirements to ../../build/arduino_test/arduino_test.egg-info/requires.txt
+writing top-level names to ../../build/arduino_test/arduino_test.egg-info/top_level.txt
+writing manifest file '../../build/arduino_test/arduino_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/arduino_test/arduino_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/arduino_test/arduino_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/david/program/ROS_printer/build/arduino_test/build
+creating /home/david/program/ROS_printer/build/arduino_test/build/lib
+creating /home/david/program/ROS_printer/build/arduino_test/build/lib/arduino_test
+copying arduino_test/stepper.py -> /home/david/program/ROS_printer/build/arduino_test/build/lib/arduino_test
+copying arduino_test/__init__.py -> /home/david/program/ROS_printer/build/arduino_test/build/lib/arduino_test
+running install
+running install_lib
+creating /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test
+copying /home/david/program/ROS_printer/build/arduino_test/build/lib/arduino_test/stepper.py -> /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test
+copying /home/david/program/ROS_printer/build/arduino_test/build/lib/arduino_test/__init__.py -> /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test
+byte-compiling /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test/stepper.py to stepper.cpython-310.pyc
+byte-compiling /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/david/program/ROS_printer/install/arduino_test/share/ament_index
+creating /home/david/program/ROS_printer/install/arduino_test/share/ament_index/resource_index
+creating /home/david/program/ROS_printer/install/arduino_test/share/ament_index/resource_index/packages
+copying resource/arduino_test -> /home/david/program/ROS_printer/install/arduino_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/david/program/ROS_printer/install/arduino_test/share/arduino_test
+running install_egg_info
+Copying ../../build/arduino_test/arduino_test.egg-info to /home/david/program/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing stepper script to /home/david/program/ROS_printer/install/arduino_test/lib/arduino_test
+writing list of installed files to '/home/david/program/ROS_printer/build/arduino_test/install.log'
