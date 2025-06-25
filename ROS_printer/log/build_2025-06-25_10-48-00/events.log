@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.001183] (arduino_test) JobQueued: {'identifier': 'arduino_test', 'dependencies': OrderedDict()}
+[0.002008] (arduino_test) JobStarted: {'identifier': 'arduino_test'}
+[0.096082] (-) TimerEvent: {}
+[0.198853] (-) TimerEvent: {}
+[0.305163] (-) TimerEvent: {}
+[0.406436] (-) TimerEvent: {}
+[0.508763] (-) TimerEvent: {}
+[0.610189] (-) TimerEvent: {}
+[0.711393] (-) TimerEvent: {}
+[0.812571] (-) TimerEvent: {}
+[0.913788] (-) TimerEvent: {}
+[1.014993] (-) TimerEvent: {}
+[1.116270] (-) TimerEvent: {}
+[1.218560] (-) TimerEvent: {}
+[1.320021] (-) TimerEvent: {}
+[1.421181] (-) TimerEvent: {}
+[1.564807] (-) TimerEvent: {}
+[1.665812] (-) TimerEvent: {}
+[1.767222] (-) TimerEvent: {}
+[1.868393] (-) TimerEvent: {}
+[1.969667] (-) TimerEvent: {}
+[2.070941] (-) TimerEvent: {}
+[2.172378] (-) TimerEvent: {}
+[2.273581] (-) TimerEvent: {}
+[2.374796] (-) TimerEvent: {}
+[2.475997] (-) TimerEvent: {}
+[2.577514] (-) TimerEvent: {}
+[2.678739] (-) TimerEvent: {}
+[2.780310] (-) TimerEvent: {}
+[2.881442] (-) TimerEvent: {}
+[2.982685] (-) TimerEvent: {}
+[3.083897] (-) TimerEvent: {}
+[3.184981] (-) TimerEvent: {}
+[3.286216] (-) TimerEvent: {}
+[3.387886] (-) TimerEvent: {}
+[3.489399] (-) TimerEvent: {}
+[3.590569] (-) TimerEvent: {}
+[3.691863] (-) TimerEvent: {}
+[3.793232] (-) TimerEvent: {}
+[3.894515] (-) TimerEvent: {}
+[3.995771] (-) TimerEvent: {}
+[4.096782] (-) TimerEvent: {}
+[4.198103] (-) TimerEvent: {}
+[4.300073] (-) TimerEvent: {}
+[4.401322] (-) TimerEvent: {}
+[4.453102] (arduino_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arduino_test', 'build', '--build-base', '/home/david/program/Printer/ROS_printer/build/arduino_test/build', 'install', '--record', '/home/david/program/Printer/ROS_printer/build/arduino_test/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/david/program/Printer/ROS_printer/src/arduino_test', 'env': {'HOSTNAME': '007f46d7460f', 'GIT_ASKPASS': '/usr/lib/code-server/lib/vscode/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/usr/lib/code-server/lib/vscode/bin/helpers/browser.sh', 'HOME': '/home/david', 'OLDPWD': '/home/david/program/Printer', 'TERM_PROGRAM_VERSION': '1.85.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-2d188b2f-b7e9-4475-beab-3ff59554bcfb.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/lib/code-server/lib/vscode/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/lib/code-server/lib/node', 'COLORTERM': 'truecolor', 'PGID': '1000', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/lib/code-server/lib/vscode/bin/remote-cli:/home/david/.local/bin:/opt/ros/humble/bin:/opt/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'VSCODE_PROXY_URI': 'http://127.0.0.1:8443/proxy/{{port}}/', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-630e1a9760.sock', 'NODE_EXEC_PATH': '/usr/lib/code-server/lib/node', 'TERM_PROGRAM': 'vscode', 'PUID': '1000', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/david/program/Printer/ROS_printer/build/arduino_test', 'PYTHONPATH': '/home/david/program/Printer/ROS_printer/build/arduino_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/program/Printer/ROS_printer/install/arduino_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'TZ': 'America/New_York', 'COLCON': '1'}, 'shell': False}
+[4.501521] (-) TimerEvent: {}
+[4.602657] (-) TimerEvent: {}
+[4.704039] (-) TimerEvent: {}
+[4.805221] (-) TimerEvent: {}
+[4.906458] (-) TimerEvent: {}
+[5.007491] (-) TimerEvent: {}
+[5.108760] (-) TimerEvent: {}
+[5.209955] (-) TimerEvent: {}
+[5.311100] (-) TimerEvent: {}
+[5.412402] (-) TimerEvent: {}
+[5.513438] (-) TimerEvent: {}
+[5.614937] (-) TimerEvent: {}
+[5.716067] (-) TimerEvent: {}
+[5.817134] (-) TimerEvent: {}
+[5.918500] (-) TimerEvent: {}
+[6.019674] (-) TimerEvent: {}
+[6.121125] (-) TimerEvent: {}
+[6.222241] (-) TimerEvent: {}
+[6.350017] (-) TimerEvent: {}
+[6.451064] (-) TimerEvent: {}
+[6.552500] (-) TimerEvent: {}
+[6.558262] (arduino_test) StdoutLine: {'line': b'running egg_info\n'}
+[6.576237] (arduino_test) StdoutLine: {'line': b'writing ../../build/arduino_test/arduino_test.egg-info/PKG-INFO\n'}
+[6.595879] (arduino_test) StdoutLine: {'line': b'writing dependency_links to ../../build/arduino_test/arduino_test.egg-info/dependency_links.txt\n'}
+[6.614519] (arduino_test) StdoutLine: {'line': b'writing entry points to ../../build/arduino_test/arduino_test.egg-info/entry_points.txt\n'}
+[6.628582] (arduino_test) StdoutLine: {'line': b'writing requirements to ../../build/arduino_test/arduino_test.egg-info/requires.txt\n'}
+[6.637446] (arduino_test) StdoutLine: {'line': b'writing top-level names to ../../build/arduino_test/arduino_test.egg-info/top_level.txt\n'}
+[6.652770] (-) TimerEvent: {}
+[6.751819] (arduino_test) StdoutLine: {'line': b"reading manifest file '../../build/arduino_test/arduino_test.egg-info/SOURCES.txt'\n"}
+[6.754790] (-) TimerEvent: {}
+[6.855901] (-) TimerEvent: {}
+[6.957021] (-) TimerEvent: {}
+[6.977265] (arduino_test) StdoutLine: {'line': b"writing manifest file '../../build/arduino_test/arduino_test.egg-info/SOURCES.txt'\n"}
+[6.986868] (arduino_test) StdoutLine: {'line': b'running build\n'}
+[7.030124] (arduino_test) StdoutLine: {'line': b'running build_py\n'}
+[7.033084] (arduino_test) StdoutLine: {'line': b'copying arduino_test/distance.py -> /home/david/program/Printer/ROS_printer/build/arduino_test/build/lib/arduino_test\n'}
+[7.057332] (-) TimerEvent: {}
+[7.160545] (-) TimerEvent: {}
+[7.215084] (arduino_test) StdoutLine: {'line': b'running install\n'}
+[7.219007] (arduino_test) StdoutLine: {'line': b'running install_lib\n'}
+[7.260812] (-) TimerEvent: {}
+[7.362132] (arduino_test) StdoutLine: {'line': b'copying /home/david/program/Printer/ROS_printer/build/arduino_test/build/lib/arduino_test/distance.py -> /home/david/program/Printer/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test\n'}
+[7.365386] (-) TimerEvent: {}
+[7.466687] (-) TimerEvent: {}
+[7.568204] (-) TimerEvent: {}
+[7.587169] (arduino_test) StdoutLine: {'line': b'byte-compiling /home/david/program/Printer/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test/distance.py to distance.cpython-310.pyc\n'}
+[7.668484] (-) TimerEvent: {}
+[7.769882] (-) TimerEvent: {}
+[7.777783] (arduino_test) StdoutLine: {'line': b'running install_data\n'}
+[7.859115] (arduino_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.870115] (-) TimerEvent: {}
+[7.894630] (arduino_test) StdoutLine: {'line': b"removing '/home/david/program/Printer/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.970453] (-) TimerEvent: {}
+[8.071743] (-) TimerEvent: {}
+[8.079927] (arduino_test) StdoutLine: {'line': b'Copying ../../build/arduino_test/arduino_test.egg-info to /home/david/program/Printer/ROS_printer/install/arduino_test/lib/python3.10/site-packages/arduino_test-0.0.0-py3.10.egg-info\n'}
+[8.172031] (-) TimerEvent: {}
+[8.273224] (-) TimerEvent: {}
+[8.374430] (-) TimerEvent: {}
+[8.475664] (-) TimerEvent: {}
+[8.576907] (-) TimerEvent: {}
+[8.678157] (-) TimerEvent: {}
+[8.779221] (-) TimerEvent: {}
+[8.880335] (-) TimerEvent: {}
+[8.908703] (arduino_test) StdoutLine: {'line': b'running install_scripts\n'}
+[8.980604] (-) TimerEvent: {}
+[9.081835] (-) TimerEvent: {}
+[9.139859] (arduino_test) StdoutLine: {'line': b'Installing stepper = arduino_test.stepper:maindistance script to /home/david/program/Printer/ROS_printer/install/arduino_test/lib/arduino_test\n'}
+[9.179678] (arduino_test) StdoutLine: {'line': b"writing list of installed files to '/home/david/program/Printer/ROS_printer/build/arduino_test/install.log'\n"}
+[9.181847] (-) TimerEvent: {}
+[9.240011] (arduino_test) CommandEnded: {'returncode': 0}
+[9.282156] (-) TimerEvent: {}
+[9.383461] (-) TimerEvent: {}
+[9.484585] (-) TimerEvent: {}
+[9.585660] (-) TimerEvent: {}
+[9.686852] (-) TimerEvent: {}
+[9.788025] (-) TimerEvent: {}
+[9.889526] (-) TimerEvent: {}
+[9.956035] (arduino_test) JobEnded: {'identifier': 'arduino_test', 'rc': 0}
+[9.978621] (-) EventReactorShutdown: {}

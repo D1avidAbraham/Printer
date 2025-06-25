@@ -9,6 +9,7 @@ setup.py
 ../../build/arduino_test/arduino_test.egg-info/top_level.txt
 ../../build/arduino_test/arduino_test.egg-info/zip-safe
 arduino_test/__init__.py
+arduino_test/distance.py
 arduino_test/stepper.py
 resource/arduino_test
 test/test_copyright.py
